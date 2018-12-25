@@ -26,6 +26,15 @@ body {
   text-align:center;
 }
 
+.hover-move-up:hover {
+  position: relative; 
+  top: -55px;
+}
+
+.shadow-effect {
+  box-shadow: 10px 10px 50px grey;
+}
+
 .skew-photo{
   transform: skewX(30deg);
   transform: skewY(30deg);
