@@ -16,6 +16,24 @@ body {
   position: relative;
 }
 
+.nav-tabs > li {
+  float:none;
+  display:inline-block;
+  zoom:1;
+}
+
+.nav-tabs {
+  text-align:center;
+}
+
+.skew-photo{
+  transform: skewX(30deg);
+  transform: skewY(30deg);
+  -webkit-transform: skewY(30deg);
+  -moz-transform: skewY(30deg);
+  background-color: #ccc;
+}
+
 .navbar-trans {
   background: transparent; }
 
